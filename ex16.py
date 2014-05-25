@@ -1,11 +1,13 @@
 from sys import argv
 
-script, filename = argv
+#organ replaces Zed's version of filename. Cryptic I know but
+# who cares. I know I know...
+script, organ = argv
 
-print 'Exciting things will happen to the file %s: ' % filename
+print 'Exciting things will happen to the file %s: ' % organ
 
 print 'We will be opening the file... please wait'
-file = open(filename, 'w')
+file = open(organ, 'w')
 
 print 'The file has been opened. Next, we need to truncate'
 file.truncate()
