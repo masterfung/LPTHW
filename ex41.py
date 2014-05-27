@@ -2,9 +2,11 @@ import random
 from urllib import urlopen
 import sys
 
+#constant, where the words are from
 WORD_URL = 'http://learncodethehardway.org/words.txt'
 WORDS = []
 
+#generation of patterns
 PHRASES = {
 	"class %%%(%%%):":
 	"Make a class named %%% that is-a %%%.",
@@ -66,7 +68,10 @@ try:
 
 			print question
 
-			# raw_input('> ')
+			#because of the infinite, you must have this
+			#funny thing is that no word input matters!
+			raw_input('> ') 
+
 
 			print 'Answer: %s\n\n' % answer
 except EOFError:
