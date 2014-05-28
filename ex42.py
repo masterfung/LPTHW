@@ -23,6 +23,7 @@ class Employee(Person):
 		self.salary = salary
 		print '%s is making %d per year!' % (name, salary)
 
+#trying out some good examples
 joe = Employee('Joe', 120000)
 harry = Employee('Harry', 1290000)
 erica = Employee('Erica', 100200000)
