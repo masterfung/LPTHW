@@ -5,6 +5,10 @@ class Animal(object):
 	def count_legs(self, count):
 		self._count = count
 		print 'Your pet has %s of legs.' % count
+	def features(self, color, height):
+		self._color = color
+		self._height = height
+		print 'This pet has the natural color of %s and is about this tall: %d' % (color, height)
 
 class Dog(Animal):
 	def bark(self):
@@ -26,4 +30,5 @@ class Employee(Person):
 #trying out some good examples
 joe = Employee('Joe', 120000)
 harry = Employee('Harry', 1290000)
+robot = Employee('The Robot', 5000)
 erica = Employee('Erica', 100200000)
