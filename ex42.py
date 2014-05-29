@@ -19,6 +19,7 @@ zeb = Animal('Zeb', 'red', 4, 39)
 zeb.features()
 zeb.count_legs()
 
+
 # happle = Animal('Happle')
 # happle.features('red', 62)
 
