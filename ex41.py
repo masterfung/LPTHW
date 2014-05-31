@@ -22,6 +22,7 @@ PHRASES = {
 	"From *** get the *** attribute and set it to '***'."
 }
 
+#good condition 
 PHRASE_FIRST = False
 if len(sys.argv) == 2 and sys.argv[1] == 'english':
 	PHRASE_FIRST = True
