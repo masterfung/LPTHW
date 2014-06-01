@@ -38,3 +38,5 @@ joe = Employee('Joe', 120000)
 harry = Employee('Harry', 1290000)
 robot = Employee('The Robot', 5000)
 erica = Employee('Erica', 100200000)
+r2d2 = Employee('r2d2', 100)
+
