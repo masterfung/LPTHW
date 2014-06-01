@@ -1,3 +1,4 @@
 This is the first line.
 The second line is always cooler than the first.
 The third line is just lingering.
+The fourth line is just magical!
