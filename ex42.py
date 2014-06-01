@@ -31,7 +31,7 @@ class Employee(Person):
 	def __init__(self, name, salary):
 		super(Employee,self).__init__(name) #need to delve into this
 		self.salary = salary
-		print '%s is making %d per year!' % (name, salary)
+		print '%s is making %d per year! Awesome!' % (name, salary)
 
 #trying out some good examples
 joe = Employee('Joe', 120000)
